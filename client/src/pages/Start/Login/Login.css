@@ -1,0 +1,15 @@
+.login__container {
+    height: 100vh;
+    width: 100vw !important;
+    @apply flex justify-center
+    bg-gradient-to-t from-tr-cyan to-blue-800 w-full  md:w-full lg:w-full;
+}
+.login {
+    @apply w-10/12 bg-gray-200 h-fit rounded-xl p-3 font-semibold mt-9;
+    /* color: #3b83f673 */
+}
+
+.logo__img {
+    width: 30% !important;
+    @apply m-auto mt-5;
+}
